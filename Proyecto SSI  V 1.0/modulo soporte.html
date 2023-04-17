@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Soporte SSI</title>
+    <style type="text/css">
+        .logo{
+            width: 90px;
+            height: 100px;
+            position: relative;
+            right: -1px
+        }.logo{
+            position: relative;
+            bottom: 58px
+        }
+        #menu img{
+            min-width: 30px;
+            max-width: 30px;
+            min-height: 30px;
+            max-height: 30px;
+        }
+        #menu{
+            background-color: #3dad46e5;
+        }
+        #menu ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        #menu ul li{
+            display: inline-block;
+        }
+        #menu ul li a{
+            border:solid 1px #14771ce5;
+            color: #68eb56;
+            display: block;
+            padding: 18px 50px;
+            text-decoration: none;   
+        }
+        #menu ul li a:hover{
+            background-color: #75caa2;
+            
+        }
+        .p {color: white;
+            text-align: justify-all;
+            position: relative;
+            bottom: 5px
+        }
+        img{
+            width: 100px;
+            height: 150px;
+            align-items:  5px;
+        } 
+        h1{text-align: center;
+            color: #F7A441 
+        }  
+
+    </style>
+</head>
+
+<body style="background-color: #C5F9DD ">
+    <div class="contenedor" class="center">
+        <div id="menu">
+            <center>
+            <ul>     
+            <li><a href="pagina ingreso.html">Inicio</a></li>
+            <li><a href="MODULOS/modulo.html">Ingresos</a></li>
+            <li><a href="modulo inventario.html">Inventario</a></li>
+            <li><a href="MODULO PROVEEDORES.html">Proveedores</a></li>
+            <li><a href="modulo soporte.html">Soporte</a></li>
+            <li><a href="pagina principal.html">Cerrar sesion</a></li>
+            </ul>
+            </center>
+        </div height=0 width = 0 style = "display:name;visibility:hidden">
+        <img class="logo" src="imagenes/LOGO_SSI.png"> 
+       
+       <div class="w-33">
+
+              <h1>S O P O R T E</h1>
+              <section>
+                   <p>Contacta con nosotros a través de nuestra línea telefonica de
+                      atención o si lo desea, envienos su mensaje y le contestaremos
+                      lo antes posible.</p>
+                        <img src="imagenes/telefono.png">  <h5>Teléfono: 3001234567</h5>
+                       <img src="imagenes/correo.png">  <h5>ssi@gaes3.com</h5>
+                       <img src="imagenes/ubicación.png">  <h5>Av. Americas 3 65</h5>
+              </section>
+               
+               <form action="form_action.php">
+                <fieldset style="margin-left: 20%; margin-right: 20%";>
+                 <legend>Déjenos su mensaje</legend>
+                         Nombre: <input type="text" name="Nombre" value="" required=""><br>
+                         Correo electronico:<input type="email" name="emailaddress" required=""><br>
+                         Asunto: <input type="text" name="Asunto" value="" required=""><br>
+                         Mensaje:<textarea name="mensaje" rows="5" cols="80" Escriba aquí...> </textarea>
+                        <button class="center" style="background-color: #569E90">Enviar
+                        </button>
+                </fieldset><hr> <hr>
+                                  
+               </form>
+               
+
+
+         </div>
+
+
+
+    
+</body>
+</html>

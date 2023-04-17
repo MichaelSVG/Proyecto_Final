@@ -1,0 +1,64 @@
+ body{
+       
+            background-size: cover;
+            background-color: #A64F16;
+            color: #FFFFFF;
+            padding: 5px;
+            margin: auto;
+        }
+        footer{
+           
+            position: relative;
+            top: 530px;
+            max-width: 100%;
+            min-height: -10cm;
+            padding: 2px;
+            background: #000000;
+            text-align: center;
+            color: #FFFFFF;
+            box-shadow: 0 0 20px 0 white;
+
+        }
+        a{
+            color: #FFFFFF;
+        }
+        .logo{
+            width: 70px;
+            height: 120px;
+            position: relative;
+            left: 94.4%;
+            top: 10.7cm;
+            
+
+        }
+        /*MENU*/
+		#menu img{
+            min-width: 40px;
+            max-width: 40px;
+            min-height: 40px;
+            max-height: 40px;
+
+        }
+        #menu{
+            background-color: #000000;
+            box-shadow: 0 0 20px 0 white;
+        }
+        #menu ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        #menu ul li{
+            display: inline-block;
+        }
+        #menu ul li a{
+            border:solid 1px #000000;
+            color: #FFFFFF;
+            display: block;
+            padding: 10px 30px;
+            text-decoration: none;
+        }
+        #menu ul li a:hover{
+            background-color: #A64F16;
+        }
+      

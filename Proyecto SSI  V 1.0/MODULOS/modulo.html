@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODULO INGRESOS</title>
+    <link rel="IMAGENES/png" href="IMAGENES/logo actualizado 2.png">
+
+    <style type="text/css">
+        footer {
+            position: relative;
+            margin-top: 500px;
+            height: 40px;
+            padding:5px 0px;
+            clear: both;
+            text-align: center;
+            color: #fff;
+            background-size: cover;
+        }.logo{
+            width: 90px;
+            height: 150px;
+            position: relative;
+            right: -1px
+        }.logo{
+            position: relative;
+            bottom: 58px
+        }
+        #menu img{
+            min-width: 40px;
+            max-width: 40px;
+            min-height: 40px;
+            max-height: 40px;
+        }
+        #menu{
+            background-color: #000000;
+            box-shadow: 0 0 20px 0 white;
+        }
+        #menu ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        #menu ul li{
+            display: inline-block;
+        }
+        #menu ul li a{
+            border:solid 1px #000000;
+            color: #FFFFFF;
+            display: block;
+            padding: 10px 30px;
+            text-decoration: none;
+        }
+        #menu ul li a:hover{
+            background-color: #A64F16;
+        
+            
+        }.botonB{
+            position: relative;
+            bottom: 5px;
+            left: 45%;
+            
+        }.parrafo{
+            position: relative;
+            bottom: -30px;
+            left: 37%;
+        }
+        .buscar{
+            position: relative;
+            bottom: 5px;
+            left: 45%;
+        }
+        .default{
+            border: white;
+        }.Fila{
+            position:static;  
+        }.perfil{
+            width: 50px;
+            height: 65px;
+            position: relative;
+            right: -1215px
+        }
+        .perfil{
+            position: relative;
+            bottom: 215px
+        }body{
+        background-image: url(IMAGENES/Fondo_de_modulo.jpg);
+        }
+        
+    </style>
+
+    <script type="text/javascript">
+
+            function adicionarFila(){
+            var cont = document.getElementById("cont");
+            var filas = document.getElementById("filas");
+            cont.setAttribute("value", parseInt(cont.value,0)+1);
+            var tabla = document.getElementById("contenido").tBodies[0];
+            var fila = document.createElement("TR");
+            fila.setAttribute("align","center");
+             
+            var celda1 = document.createElement("TD");
+            var codigo = document.createElement("INPUT");
+            codigo.setAttribute("type","text","center");
+            codigo.setAttribute("size","4");
+            codigo.setAttribute("maxlength","3");
+            codigo.setAttribute("name","codigo" + cont.value);
+            celda1.appendChild(codigo);
+             
+            var celda2 = document.createElement("TD");
+            var sel = document.createElement("INPUT");
+            codigo.setAttribute("type","text");
+            codigo.setAttribute("size","8");
+            codigo.setAttribute("maxlength","20");
+            codigo.setAttribute("name","sel"+cont.value);
+            opcioncur = document.createElement("INPUT");
+            sel.appendChild(opcioncur); 
+            opcion1 = document.createElement("INPUT");
+            sel.appendChild(opcion1);
+            opcion2 = document.createElement("INPUT");
+            sel.appendChild(opcion2);
+            celda2.appendChild(sel);
+             
+            var celda3 = document.createElement("TD");
+            var valorA = document.createElement("INPUT");
+            valorA.setAttribute("type","text + &#36");
+            valorA.setAttribute("size","5");
+            valorA.setAttribute("maxlength","10");
+            valorA.setAttribute("name","valorA" + cont.value);
+            celda3.appendChild(valorA);
+             
+            var celda4 = document.createElement("TD");
+            var valorB = document.createElement("INPUT");
+            valorB.setAttribute("type","text");
+            valorB.setAttribute("size","5"+"$" );
+            valorB.setAttribute("maxlength","10");
+            valorB.setAttribute("name","valorB" + cont.value);
+            celda4.appendChild(valorB);
+             
+            var celda5 = document.createElement("TD");
+            var valorC = document.createElement("INPUT");
+            valorC.setAttribute("type","text");
+            valorC.setAttribute("size","5");
+            valorC.setAttribute("maxlength","10");
+            valorC.setAttribute("name","valorC" + cont.value);
+            
+            celda5.appendChild(valorC);
+             
+            var celda6 = document.createElement('TD');
+            var boton = document.createElement('INPUT');
+            boton.setAttribute('type','button');
+            boton.setAttribute('value','x');
+            boton.onclick=function(){borrarFila(this);}
+            celda6.appendChild(boton);
+             
+            fila.appendChild(celda1);
+            fila.appendChild(celda2);
+            fila.appendChild(celda3);
+            fila.appendChild(celda4);
+            fila.appendChild(celda5);
+            fila.appendChild(celda6);
+             
+            tabla.appendChild(fila);
+            }
+            function borrarFila(button){
+            var fila = button.parentNode.parentNode;
+            var tabla = document.getElementById('contenido').getElementsByTagName('tbody')[0];
+            tabla.removeChild(fila);
+            }
+            function myFunction() {
+            alert("Busqueda no encontrada");
+            }
+            </script>
+
+
+</head>
+
+<body style="background-image: url(imagenes/Fondo_de_modulo.jpg) ">
+
+
+
+    <div class="contenedor">
+        <div id="menu">
+            <center><ul>
+                <li><a href="../pagina ingreso.html">Inicio</a></li>
+                <li><a href="modulo.html">Ingresos</a></li>
+                <li><a href="../modulo inventario.html">Inventario</a></li>
+                <li><a href="../MODULO PROVEEDORES.html">Proveedores</a></li>
+                <li><a href="../modulo soporte.html">Soporte</a></li>
+                <li><a href="../pagina principal.html">Cerrar sesion</a></li>
+            </ul> </center>    
+        </div>
+    </div>
+        
+    
+    <img class="logo" src="IMAGENES/logo actualizado 2.png" style="position: relative; left: 1255px; bottom: -7px; "></div>
+    <img class="perfil" src="IMAGENES/perfil.png"></div>
+
+    <d style="position: relative; top: -150px;" action="../../form-result.php" method="post" target="_blank"class= boton>
+        <p class="parrafo">Busca Producto: </p>
+        <input type="search" name="busquedamodelos" list="listamodelos" class="botonB">       
+     <a style="background-color: grey; color: black; position: relative; left: 620px; top: -4px;   ;"  onclick="myFunction()" href="modulo.html">Buscar</a></d>
+        
+
+        
+
+    </form>     
+    <datalist id="listamodelos">    
+        <option value="Cantidad">    
+        <option value="Producto">     
+        <option value="Precio">     
+        <option value="Valor S">
+        <option value="Valor M">      
+    </datalist>
+<Form id="Tabla1" name="detalle" action="ej.asp" method="get">
+<input name="cont" type="hidden" id="cont" value="0" >
+<input name="filas" type="hidden" id="filas" value="" >
+<table align=center width=30% cellpadding=0 cellspacing=0 id="contenido" border="1">
+    <tr align="center">
+    <td>Cantidad</td>
+    <td>Producto</td>
+    <td>Precio</td>
+    <td>Proveedor</td>
+    <td>Estado (Vendido -- No vendido)</td>
+    <td>Eliminar Fila </td>
+    </tr>
+    </table>
+            
+<table align=center width=10% cellpadding=0 cellspacing=0 border="1" class="Fila">
+  <tr>
+    <td align="CENTER" >&nbsp;Agregar Fila</td>
+    </tr>
+    <tr align="center">
+    <td align="CENTER"><input name="enviar">
+    <input name="nueva_fila" type="button" id="nueva_fila" value="&#x2795;" onClick="adicionarFila()"></td>
+  </tr>
+</table>
+
+</form>   
+        
+</body>
+</html>

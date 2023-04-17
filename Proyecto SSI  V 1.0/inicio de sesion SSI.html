@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Super Store Inventory</title>
+	<link rel="icon" type="image/jpg" href="imagenes/logo SSI 1.png">
+	<script src="Olvido contraseña.JS"></script>
+	<style type="text/css">
+		
+		*{
+			box-sizing: border-box;
+		}
+		body{
+			background-color: #A64F16;
+			color: #FFFFFF;
+			padding: 5px;
+			margin: auto;
+		}
+		a{
+			color: #FFFFFF;
+		}
+		.cuerpo{
+			max-width: 1170px;
+			margin: auto;
+			padding: 1.5em;
+			padding-left: 8em;
+			padding-right: 8em;
+		}
+		.contenido{
+			width: auto;
+			padding: 20px;
+			border: 1px solid;
+			border-radius: 10px;
+			background-color: #000000;
+			box-shadow: 0 0 20px 0 white;
+		}
+		.cont-form{
+			display: grid;
+			grid-template-columns: 1fr 2fr;
+		}
+		.cont-form form button,
+		.cont-form form input{
+			width: 100%;
+			padding: .7em;
+			border: none;
+			background: none;
+			outline: 0;
+			color: white;
+			border-bottom: 1px solid #A64F16;
+		}
+		.cont-form form button{
+			background: #A64F16;
+			border: 0;
+			text-transform: uppercase;
+			padding: 1em;
+		}
+		.cont-form form button:hover,
+		.cont-form form button:focus{
+			background: #BA4A00;
+			transition: background-color 1s ease-out;
+			outline: 0;
+		}
+		.cont-form img{
+			margin: auto;
+			padding-right: 20px;
+		}
+		.cont-form .or{
+			text-align: center;
+		}
+		footer{
+            max-width: 100%;
+            min-height: 120px;
+            padding: 4px;
+            background: #000000;
+            text-align: center;
+            color: #FFFFFF;
+            box-shadow: 0 0 20px 0 white;
+        }
+		h1{
+			color: #FFFFFF; 
+			text-align: center;
+		}
+		
+		.logo{
+			width: auto;
+			height: auto;
+		}
+		
+		/*MENU*/
+		#menu img{
+            min-width: 40px;
+            max-width: 40px;
+            min-height: 40px;
+            max-height: 40px;
+        }
+        #menu{
+            background-color: #000000;
+            box-shadow: 0 0 20px 0 white;
+        }
+        #menu ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        #menu ul li{
+            display: inline-block;
+        }
+        #menu ul li a{
+        	border:solid 1px #000000;
+            color: #FFFFFF;
+            display: block;
+            padding: 10px 30px;
+            text-decoration: none;
+        }
+        #menu ul li a:hover{
+            background-color: #A64F16;
+        }
+	</style>
+</head>
+<body>
+	<div id="menu">
+        <ul>
+            <li style="position: relative; left: 650px;"><a href="pagina principal.html">Inicio</a></li>
+        </ul>
+    </div>
+    <div class="cuerpo">
+    	<div class="contenido">
+			<h1>SSI<br> <small>(Super Store Inventory)</small></h1>
+			<div class="cont-form">
+					<img class="logo" src="imagenes/LOGO_SSI.png">
+					<form action="pagina ingreso.html" target="_self">
+						<p>
+							<label for="usuario">Usuario:</label> 
+						    <input type="text" placeholder="USUARIO" id="usuario" required="">
+						</p>
+						<p>
+							<label for="contraseña">Contraseña:</label>
+						    <input type="password" placeholder="CONTRASEÑA &#128272" id="contraseña" required="">
+						</p>
+						<p>
+							<button type="submit">ingresar</button>
+						</p>
+						<p class="or">
+							<a href="inicio de sesion SSI.html" onclick="Olvido_Password();">olvide mi contraseña </a><br>
+							<a href="registro SSI.html">Registrarse</a>
+						</p>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<footer >
+			Diseñado por Michael Steven vanegas<br> 
+			<a href="https://www.sic.gov.co/politica-privacidad">Pivacy politic</a><br>
+			Contacto:<br>
+			<a href="vanegazgonzalez@gmail.com">Email</a><br>
+			Telefono: 3124454821<br>
+			Version: 1.0<br>
+			Derechos reservados por Michael vanegas 
+		</footer>
+</body>
+</html>

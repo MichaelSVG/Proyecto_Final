@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+        body{
+            background-image:url("imagenes/Fondo_proyecto.png");
+            background-size: cover;
+            background-color: #A64F16;
+            color: #FFFFFF;
+            padding: 5px;
+            margin: auto;
+        }
+        hr{
+            padding: 4px;
+            border-left: 0px;
+            border-right: 0px;
+            border-color: #000000;
+        }
+        footer{
+            max-width: 100%;
+            min-height: 120px;
+            padding: 2px;
+            background: #000000;
+            text-align: center;
+            color: #FFFFFF;
+            box-shadow: 0 0 20px 0 white;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .cuerpo{
+            max-width: 1170px;
+            margin: auto;
+            padding: 1.5em;
+            padding-left: 8em;
+            padding-right: 8em;
+        }
+        .cuerpo{
+            width: auto;
+            padding: 20px;
+            border: 1px solid;
+            border-radius: 10px;
+            background-color: #000000;
+            box-shadow: 0 0 20px 0 white;
+        }
+        .cuerpo{
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+        }
+        .cont-filtros hr{
+            width:auto;
+            border:solid 1px;
+            border-color: #A64F16;
+            border-left: 0px;
+            border-right: 0px;
+        }
+        .cont-filtros h3{
+            text-align: center;
+        }
+        .cont-inventario{
+            border-left: solid 1px #A64F16;
+            padding-left: 20px; 
+        }
+        .cont-inventario button{
+            background: #A64F16;
+            border: 0;
+            text-transform: uppercase;
+            padding: 1em;
+        }
+        .nuevo-producto{
+            float: right;
+            margin: auto;
+        }
+        .cont-inventario table button{
+            width: 100%;
+        }
+        .cont-inventario table{
+            padding: 0;
+            width: 100%;
+            border: solid 1px #A64F16;
+        }
+        .cont-inventario th{
+            padding: 1em;
+            border: solid 1px #A64F16;
+        }
+        .cont-inventario td{
+            padding: auto;
+            border: solid 1px #A64F16;
+        }
+        .cont-inventario hr{
+            padding: 4px;
+            border-left: 0px;
+            border-right: 0px;
+            border-color: #A64F16;
+        }
+
+        /*MENU*/
+        #menu{
+            background-color: #000000;
+            box-shadow: 0 0 20px 0 white;
+        }
+        #menu ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        #menu ul li{
+            display: inline-block;
+        }
+        #menu ul li a{
+            border:solid 1px #000000;
+            color: #FFFFFF;
+            display: block;
+            padding: 10px 30px;
+            text-decoration: none;
+        }
+        #menu ul li a:hover{
+            background-color: #A64F16;
+        }
+	</style>
+</head>
+<body >
+        <div id="menu">
+        <center><ul>
+            <li><a href="pagina ingreso.html">Inicio</a></li>
+            <li><a href="MODULOS/modulo.html">Ingresos</a></li>
+            <li><a href="modulo inventario.html">Inventario</a></li>
+            <li><a href="MODULO PROVEEDORES.html">Proveedores</a></li>
+            <li><a href="modulo soporte.html">Soporte</a></li>
+            <li><a href="pagina principal.html">Cerrar sesion</a></li>
+        </ul> </center> </div>
+    <hr>
+    <div class="cuerpo">
+    <div class="cont-filtros">
+        <p>
+            <h3>Filtros</h3>
+            <hr>
+            <h3>Precio</h3>
+            <input type="radio" name="filt-precio" value="mayor_a_menor_precio">mayor a menor precio<br>
+            <input type="radio" name="filt-precio" value="menor_a_mayor_precio">menor a mayor precio
+        </p>
+        <hr>
+        <p>
+            <h3>Estado</h3> 
+            <input type="radio" name="filt-estado" value="Disponible">Disponible<br>
+            <input type="radio" name="filt-estado" value="No_Disponible">No Disponible
+        </p>
+    </div> 
+    <div class="cont-inventario">
+        <p>
+            <button class="nuevo-producto">Agregar producto</button>
+        </p><br><br><br>
+        <hr>
+        <p>
+            <table>
+                <tr>
+                    <th>Nom.Producto</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                    <th>Fecha de vencimiento</th>
+                    <th>Cambios</th>
+                </tr>
+                <tr>
+                    <td>Ej: Galletas</td>
+                    <td>5.000</td>
+                    <td>Ej: 20</td>
+                    <td>Ej: 16/03/2022</td>
+                    <td><button>Eliminar</button><br>
+                        <button>Editar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ej: Arroz</td>
+                    <td>20.000</td>
+                    <td>Ej: 25</td>
+                    <td>Ej: 16/07/2022</td>
+                    <td><button>Eliminar</button><br>
+                        <button>Editar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td><button>Eliminar</button><br>
+                        <button>Editar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td><button>Eliminar</button><br>
+                        <button>Editar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td><button>Eliminar</button><br>
+                        <button>Editar</button>
+                    </td>
+                </tr>
+            </table>
+        </p>
+    </div>
+    </div><hr>
+    <footer >
+        Diseñado por Michael Steven vanegas<br> 
+        <a href="https://www.sic.gov.co/politica-privacidad">Pivacy politic</a><br>
+        Contacto:<br>
+        <a href="vanegazgonzalez@gmail.com">Email</a><br>
+        Telefono: 3124454821<br>
+        Version: 1.0<br>
+        Derechos reservados por Michael vanegas 
+    </footer>
+</body>
+</html>

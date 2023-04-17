@@ -1,0 +1,128 @@
+body{
+    background-image:url("../imagenes/Fondo_proyecto.png");
+    background-size: cover;
+    background-color: #A64F16;
+    color: #FFFFFF;
+    padding: 5px;
+    margin: auto;
+}
+footer{
+
+    max-width: 100%;
+    min-height: 120px;
+    padding: 2px;
+    background: #000000;
+    text-align: center;
+    color: #FFFFFF;
+    box-shadow: 0 0 20px 0 white;
+}
+a{
+    color: #FFFFFF;
+}
+.logo{
+    width: 90px;
+    height: 180px;
+}
+
+/*MENU*/
+#menu img{
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 40px;
+    max-height: 40px;
+}
+#menu{
+    background-color: #000000;
+    box-shadow: 0 0 20px 0 white;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li{
+    display: inline-block;
+}
+#menu ul li a{
+    border:solid 1px #000000;
+    color: #FFFFFF;
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+    background-color: #A64F16;
+}
+#Proposito{
+    width: 50%;
+    height: 70%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+    background-color:rgb(123, 168, 155);
+    position: relative;
+    left: 5%;
+    transition: all 220ms;
+    border-radius: 20px;
+    border: 2px solid #3a2305;
+    
+}
+.proposito:hover{
+    transform:perspective(200)
+
+}
+p{
+    position: relative;
+    left: 0%;
+    width: 60%;
+    transition: all 400ms;
+    
+
+}
+p:hover{
+    transform: scale(1.10);
+}
+#Arriba{
+    position: relative;
+    left: 0cm;
+    bottom: 1cm;
+
+}
+#Abajo{
+    position: relative;
+    right: -0cm;
+    top: 0.50cm;
+}
+#Text1{
+    border-color: #000000;
+    border-radius: 1cm;
+    color: rgb(46, 44, 53);
+}
+#Text2{
+    color: rgb(46, 44, 53);
+}
+h2{
+    transition: all 500ms;
+}
+h2:hover{
+    transform: scale(2.15);
+}
+#Documentacion{
+    
+}
+#Text3{
+    width: 100%;
+    position: relative;
+    left: 0.50%;
+    color: rgb(21, 20, 27);
+}
+#Separador{
+
+    position: relative;
+    right: 2.7cm;
+    color: blanchedalmond;
+}
+#Separador1{
+    position: relative;
+    left: -0.1cm;
+    color: blanchedalmond;
+}

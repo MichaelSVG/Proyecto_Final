@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Super Store Inventory</title>
+	<link rel="icon" type="image/jpg" href="imagenes/LOGO2.png">
+	<script src="Olvido contraseña.JS"></script>
+	<style type="text/css">
+		
+		tr, td{
+			padding: 5px;
+		}
+		.contenido{
+			width: 44%;
+			height: 500px;
+			padding: 10px;
+			border: 1px solid;
+			border-radius: 30px;
+			background-color: #8d6f86; 
+		}
+		.menu{
+			padding-left: 30px;
+		}
+		.ingreso{
+			width: 55%;
+			margin: auto;
+		}
+		footer{
+			background-color: #000;
+			text-align: center;
+			color: #ffffff;
+			font-size: 15px;
+			position: relative;
+			top: 39px;
+			width: 1350px;
+			
+		}
+		h1{
+			color: #569E90; 
+			text-align: center;
+			text-decoration-color: #000;
+		}
+		body{
+
+			margin: auto;
+			padding: 5px; 
+			background-color: #976a64; 
+		}
+		.logo{
+			width: 20%; 
+			height: 20%;
+		}
+		#buttons{
+			width:40%; 
+			height:40px;
+			background:#017bad; 
+			border:none;
+			color:white;
+			margin-bottom:16px;
+		}
+		.contCuerp{
+			padding: 10px;
+		}
+		*{
+			margin: 0;
+			padding: 0;
+		}
+        header{
+        	font-family: Helvetica;
+        	width: 400px;
+        	margin: 0 auto;
+        }
+        ul{
+        	list-style: none;
+        }
+        #menu li>a{
+        	background-color: grey;
+        	color: white;
+        	padding: 10px;
+        	display: block;
+        	text-decoration: none;
+        	min-width: 100px;
+			position: relative;
+			left: 62px;
+        }
+        #menu li>a:hover{
+        	color: #000;
+        	background-color: #eaeaea;
+        }
+        #menu>li{
+        	float: left;
+        	text-align:center
+        }
+        #menu>li>ul{
+        	display: none;
+        }
+        #menu>li:hover>ul{
+        	display:block;
+        }
+	</style>
+</head>
+<body>
+	<center>
+		<div class="contenido">
+			<h1>SSI<br> <small>(Super Store Inventory)</small></h1>
+		<div class="menu">
+			<center>
+				<header>
+			<nav>
+				<ul id="menu">
+					<li><a href="pagina principal.html">Inicio</a></li>
+          			<li><a href="inicio de sesion SSI.html">Iniciar sesion</a></li>
+				</ul>
+			</nav>
+		</header><br><br>
+			</center>
+		</div>
+		<div class="contCuerp">
+			<center>
+				<img class="logo" src="imagenes/INGRESO2.jpeg">
+				<form action="inicio de sesion SSI.html" target="_self">
+					<table class="ingreso">
+						<tr>
+							<td>Nombres:</td>
+						    <td><input type="text" placeholder="Nombres completos" required=""></td>
+						    <td>Apellidos:</td>
+						    <td><input type="text" placeholder="Apellidos completos" required=""></td>
+					    </tr>
+					    <tr>
+							<td>Tip.Documento</td>
+						    <td><input list="Documento" placeholder="Documento" required="">
+						    	<datalist id="Documento">
+						    		<option value="Cédula de ciudadanía">
+						    		<option value="Cédula de extranjería">
+						    	</datalist>
+						    </td>
+						    <td>N.Documento:</td>
+						    <td><input type="text" placeholder="N.Documento" required=""></td>
+					    </tr>
+					    <tr>
+							<td>Email:</td>
+						    <td><input type="email" placeholder="Email" required="" ></td>
+						    <td>Repita Email:</td>
+						    <td><input type="email" placeholder="Email" required="" ></td>
+					    </tr>
+						<tr>
+							<td>Usuario:</td>
+						    <td><input type="text" placeholder="Usuario" required=""></td>
+						    <td>Contraseña:</td>
+						    <td><input type="password" placeholder="Contraseña &#128272" required=""></td>
+					    </tr>
+				</table>
+			</center>
+		</div><br>
+		<center>
+			<input id="buttons" type="submit" value="REGISTRAR" onclick="PromptDemom();"><br>
+			
+		</center>
+		</form>
+	    </div><br>
+		<footer >
+			Diseñado por Michael Steven vanegas<br> 
+			<a href="https://www.sic.gov.co/politica-privacidad">Pivacy politic</a><br>
+			Contacto:<br>
+			<a href="vanegazgonzalez@gmail.com">Email</a><br>
+			Telefono: 3124454821<br>
+			Version: 1.0<br>
+			Derechos reservados por Michael vanegas 
+		</footer>
+	</center>
+</body>
+</html>
