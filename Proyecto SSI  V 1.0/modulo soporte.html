@@ -2,108 +2,104 @@
 <html>
 <head>
     <title>Soporte SSI</title>
-    <style type="text/css">
-        .logo{
-            width: 90px;
-            height: 100px;
-            position: relative;
-            right: -1px
-        }.logo{
-            position: relative;
-            bottom: 58px
-        }
-        #menu img{
-            min-width: 30px;
-            max-width: 30px;
-            min-height: 30px;
-            max-height: 30px;
-        }
-        #menu{
-            background-color: #3dad46e5;
-        }
-        #menu ul{
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-        #menu ul li{
-            display: inline-block;
-        }
-        #menu ul li a{
-            border:solid 1px #14771ce5;
-            color: #68eb56;
-            display: block;
-            padding: 18px 50px;
-            text-decoration: none;   
-        }
-        #menu ul li a:hover{
-            background-color: #75caa2;
-            
-        }
-        .p {color: white;
-            text-align: justify-all;
-            position: relative;
-            bottom: 5px
-        }
-        img{
-            width: 100px;
-            height: 150px;
-            align-items:  5px;
-        } 
-        h1{text-align: center;
-            color: #F7A441 
-        }  
+    <link rel="icon" type="image/jpg" href="IMAGENES/SSI.png">
+   <link href="./CSS/pagina-soporte.css" rel="stylesheet" type="text/css">
 
-    </style>
+            <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
 
-<body style="background-color: #C5F9DD ">
-    <div class="contenedor" class="center">
+<body background='./Imagenes/Fondo.jpg'>
+    <div class="contenedor">
         <div id="menu">
-            <center>
-            <ul>     
+            
+            <ul style="text-align: center;">     
             <li><a href="pagina ingreso.html">Inicio</a></li>
             <li><a href="MODULOS/modulo.html">Ingresos</a></li>
             <li><a href="modulo inventario.html">Inventario</a></li>
+            <li><img src="./Imagenes/SSI.png" alt="Descripción de la imagen"/></li>
             <li><a href="MODULO PROVEEDORES.html">Proveedores</a></li>
-            <li><a href="modulo soporte.html">Soporte</a></li>
-            <li><a href="pagina principal.html">Cerrar sesion</a></li>
+            <li class="B-soporte"><a href="modulo soporte.html">Soporte</a></li>
+            <li><a href="sign-in.html">Cerrar sesion</a></li>
             </ul>
-            </center>
-        </div height=0 width = 0 style = "display:name;visibility:hidden">
-        <img class="logo" src="imagenes/LOGO_SSI.png"> 
+          
+        </div>
        
-       <div class="w-33">
-
-              <h1>S O P O R T E</h1>
-              <section>
-                   <p>Contacta con nosotros a través de nuestra línea telefonica de
+       
+       <div class="w-33" style="text-align: center;">
+<br>
+              <h4 style="text-align: center; color: #525252">S O P O R T E</h4>
+              <section> <br>
+                   <p style="text-align: center;"> Contacta con nosotros a través de nuestra línea telefonica de
                       atención o si lo desea, envienos su mensaje y le contestaremos
                       lo antes posible.</p>
-                        <img src="imagenes/telefono.png">  <h5>Teléfono: 3001234567</h5>
-                       <img src="imagenes/correo.png">  <h5>ssi@gaes3.com</h5>
-                       <img src="imagenes/ubicación.png">  <h5>Av. Americas 3 65</h5>
-              </section>
-               
-               <form action="form_action.php">
-                <fieldset style="margin-left: 20%; margin-right: 20%";>
-                 <legend>Déjenos su mensaje</legend>
-                         Nombre: <input type="text" name="Nombre" value="" required=""><br>
-                         Correo electronico:<input type="email" name="emailaddress" required=""><br>
-                         Asunto: <input type="text" name="Asunto" value="" required=""><br>
-                         Mensaje:<textarea name="mensaje" rows="5" cols="80" Escriba aquí...> </textarea>
-                        <button class="center" style="background-color: #569E90">Enviar
-                        </button>
-                </fieldset><hr> <hr>
-                                  
-               </form>
-               
+                      <br>
+                      <div class="contacto">
+                        <div><p><img src="imagenes/telefono.png" style="width: 60px; height: 60px;"><br><h5 style="color: #525252"> 3001234567</h5></p></div>
+                        <div><p><img src="imagenes/correo.png" style="width: 60px; height: 60px;"><br> <h5 style="color: #525252">ssi_gaes3@gmail.com</h5> </p></div>
+                        <div><p><img src="imagenes/ubicación.png" style="width: 60px; height: 60px;"> <br><h5 style="color: #525252">Av. Americas 3 65</h5></p></div>
+                       
+                    </div>
+                    </section>
+               <br> <br>
+              <form  style="text-align: center; margin: auto; width: 70%;">
+
+                <div class="asunto1">
+                  <label for="l1" id="asunto" >Preguntas Frecuentes: </label><br>
+                  <select name="select" id="select">
+                   <option value="value1">¿Por que no registra la pagina?</option>
+                   <option value="value2">¿Que hago si no tengo usuario?</option>
+                   <option value="value3">¿Como me contacto con un tecnico?</option>
+                   <option value="value3">¿Como me contacto con un tecnico?</option>
+                   <option value="value3">¿Cuales son los datos obligatorios?</option>
+                 </select>
+               </div>
+                   
+                <div class="form-group">
+                  <label for="exampleInputEmail1"> Nombre </label>
+                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Aqui">
+                  <small id="emailHelp" class="form-text text-muted"></small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Correo</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="@gmail">
+                </div>
+                <div>
+                    <label for="exampleFormControlTextarea1">Mensaje</label>
+               <textarea class="form-control" id="a1" rows="3"></textarea> <br>
+                <input type="checkbox" id="btn-eliminar" name="">
+                      <label for="btn-eliminar" class="eliminar">ENVIAR</label>
+                      <div class="overlay-eliminar" id="overlay-eliminar">
+                        <div class="popup-eliminar">
+                          <h3>Alerta</h3>
+                          <form>
+                            <p>
+                              <label>Verifique que los datos sean correctos antes de enviar la solicitud</label> 
+                            </p>
+                            <button class="btn-aceptar" type="submit" for="btn-eliminar">Aceptar</button>
+                          </form><br>
+                          <a href="" for="btn-eliminar">cancelar</a>
+                        </div>
+                      </div>
+              </div>
+              </table>
+            </form>
 
 
          </div>
 
-
-
-    
+<br>
+<br>
+<div style="padding: 4px;background-color: #c7c0bc"></div>
+<footer class="pie" background= "IMAGENES/Fondo.jpg">
+    Diseñado por Michael Steven Vanegas Gonzalez <a href="https://www.sic.gov.co/politica-privacidad">Privacy politic</a><br>
+    Contacto:<br>
+    <a href="vanegazgonzalez@gmail.com">Email</a><br>
+    Telefono: 3124454821<br>
+    Version: 1.0<br>
+    Derechos reservados por Michael Vanegas <br> 
+    <a href="error 404.html">Error 404</a>  y  <a href="error 500.html">Error 500</a><br>
+    <a href="Mapa-de-navegacion.html">Mapa de navegación</a>
+</footer>
 </body>
 </html>

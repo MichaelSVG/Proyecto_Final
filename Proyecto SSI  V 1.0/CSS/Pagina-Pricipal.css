@@ -60,5 +60,19 @@
         }
         #menu ul li a:hover{
             background-color: #A64F16;
+        }#Servicios_a_ofrecer{
+            position: relative;
+            right: -55%;
+            bottom: 4cm;
+            color: rgb(0, 0, 0);
+            background-color: #FFFFFF;
+            width: 44%;
+        }#Informacion{
+            position: relative;
+            bottom: -2cm ;
+            color: rgb(0, 0, 0);
+            background-color: #FFFFFF;
+            width: 44%;
+
         }
       

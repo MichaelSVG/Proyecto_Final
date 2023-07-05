@@ -1,0 +1,191 @@
+body{
+    background-image:url("../imagenes/Pagina-Principal.png");
+    background-size: cover;
+    background-color: #A64F16;
+    color: #FFFFFF;
+    padding: 5px;
+    margin: auto;
+}
+
+footer{
+    opacity: 12;
+    max-width: 100%;
+    min-height: 120px;
+    padding: 2px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: transparent;
+}
+a{
+    color: #FFFFFF;
+}
+.logo{
+    width: 90px;
+    height: 180px;
+}
+
+/*MENU*/
+#menu img{
+    position: absolute;
+    top: 0.5%;
+    left: 46%;
+    min-width: 60px;
+    max-width: 60px;
+    min-height: 60px;
+    max-height: 60px;
+    
+}
+#menu{
+    opacity: 0.8;
+    background-color:rgb(0, 0, 0);
+    box-shadow: 0 0 20px 0 rgb(128, 134, 168);
+    border-radius: 20px;
+    /* animation: backgroundAnimation 600s ease infinite; */
+    border-radius: 20px;
+    border: 0.5px solid #ffffff;
+}
+
+/*@keyframes backgroundAnimation {
+    30% {
+        background-color: rgb(231, 176, 176);
+      }
+      40% {
+        background-color: rgb(113, 160, 158);
+      }
+      30% {
+        background-color: rgb(142, 143, 87);
+      }
+}*/
+/*
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+#menu ul li{
+    display: inline-block;
+    border-radius: 1%;
+}
+#menu ul li a{
+    border: 2px 0.5px #1a1818;
+    color: #FFFFFF;
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+    background-color: #A64F16;
+    opacity:10;
+}
+*/
+#Proposito{
+    width: 50%;
+    height: 70%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0 0 20px 0 white;
+    color: #000000;
+    position: relative;
+    left: 0%;
+    transition: all 220ms;
+    border-radius: 20px;
+    border: 0.5px solid #c4c2ca;
+    background-image: url(../Imagenes/Modulo-Presentacion\ .png);
+    background-size: cover;
+    animation: backgroundAnimation1 10s ease infinite;
+}
+
+@keyframes backgroundAnimation1 {
+  100% {
+    background-image:url("../Imagenes/Modulo-Presentacion\ .png") ;
+  }
+
+    
+}
+.proposito:hover{
+    transform:perspective(200)
+
+}
+p{
+    position: relative;
+    left: 0%;
+    width: 60%;
+    transition: all 250ms;
+    
+
+}
+p:hover{
+    transform: scale(1.05);
+}
+#Arriba{
+    position: relative;
+    left: 0cm;
+    bottom: 1cm;
+
+}
+#Abajo{
+    position: relative;
+    right: -0cm;
+    top: 0.50cm;
+}
+#Text1{
+    border-color: #000000;
+    border-radius: 1cm;
+    color: rgb(255, 255, 255);
+}
+#Text2{
+    color: rgb(255, 255, 255);
+}
+h2{
+    transition: all 500ms;
+}
+h2:hover{
+    transform: scale(1.15);
+}#Text3{
+    width: 100%;
+    position: relative;
+    left: 0.50%;
+    color: rgb(21, 20, 27);
+}
+#Separador{
+
+    position: relative;
+    right: 2.7cm;
+    color: blanchedalmond;
+}
+#Separador1{
+    position: relative;
+    left: -0.1cm;
+    color: blanchedalmond;
+}
+
+/*CSS DE LA BARRA DE NAVEGACION*/
+#menu{
+    background-color: black ; 
+    padding: 0;
+    font-size: medium;
+}
+#menu ul{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li{
+    display: inline-block;
+}
+#menu ul li a{
+    color: white;
+    display: block;
+    padding: 18px 50px;
+    text-decoration: none;   
+}
+#menu ul li a:hover{
+    background-color: #7B7D7D;
+}#Imagen-Central{
+
+    width: 1%;
+    height: 1%;
+
+}
