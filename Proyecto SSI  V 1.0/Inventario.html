@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>CRUD LOCAL JS</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/estilos-crud.css">
+</head>
+<body>
+
+        <div id="menu">
+            
+            <ul>     
+            <li><a href="pagina ingreso.html">Inicio</a></li>
+            <li><a href="MODULOS/modulo.html">Ingresos</a></li>
+            <li><a href="Inventario.html">Inventario</a></li>
+            <li><img src="./Imagenes/SSI.png" alt="Descripción de la imagen" id="Imagen-Central"/></li>
+            <li><a href="MODULO PROVEEDORES.html">Proveedores</a></li>
+            <li class="B-soporte"><a href="modulo soporte.html">Soporte</a></li>
+            <li><a href="sign-in.html">Cerrar sesion</a></li>
+            </ul>
+          
+        </div>
+    
+    <div class="contenedor">
+
+        <div class="div-formulario">
+            <h2>Formulario</h2>
+
+            <form action="#" id="formulario">
+                <input type="text" id="nombre" placeholder="Ingresa producto">
+                <input type="text" id="puesto" placeholder="Ingresa el precio">
+                <input type="text" id="Proveedor" placeholder="Proveedor">
+                <input type="datetime" id="FechaCD" placeholder="Fecha de caducidad">
+                <button type="submit" id="btnAgregar">Agregar</button>
+            </form>
+          
+        </div>
+
+        <div class="div-listado">
+            <h2>Listado Empleados</h2>
+            <div class="div-empleados">
+            </div>
+        </div>
+       
+    </div>
+    <script src="./JS/app.js"></script>
+    
+
+</body>
+</html>

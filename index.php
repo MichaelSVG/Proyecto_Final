@@ -20,22 +20,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  
   <title>
     Material Dashboard 2 by Creative Tim
   </title>
   <!-- Js olvido contraseña -->
-  <script src="./Olvido contraseña.JS"></script>
+  <script src="Proyecto SSI  V 1.0/JS/Olvido contraseña.JS"></script>
   <!--     Fonts and icons     -->
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
   <!-- Nucleo Icons -->
-  <link href="./assets/CSS/nucleo-icons.css" rel="stylesheet" />
-  <link href="./assets/CSS/nucleo-svg.css rel="stylesheet" />
+  <link href="./Proyecto SSI  V 1.0/ SSI  V 1.0/assets/CSS/nucleo-icons.css" rel="stylesheet" />
+  <link href="./Proyecto SSI  V 1.0/ SSI  V 1.0/assets/CSS/nucleo-svg.css" rel="stylesheet" />
   <!-- Font Awesome Icons -->
   <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
   <!-- Material Icons -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
   <!-- CSS Files -->
-  <link id="pagestyle" href="./assets/CSS/material-dashboard.css" rel="stylesheet" />
+  <link id="pagestyle" href="./Proyecto SSI  V 1.0/assets/CSS/material-dashboard.css" rel="stylesheet" />
   <!-- Nepcha Analytics (nepcha.com) -->
   <!-- Nepcha is a easy-to-use web analytics. No cookies and fully compliant with GDPR, CCPA and PECR. -->
   <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js" ></script>
@@ -74,7 +75,7 @@
               <ul class="navbar-nav d-lg-flex d-none">
                 <li class="nav-item d-flex align-items-center">
                 </li>
-                <li class="nav-item">
+                <li class="nav-item">fa
                 </li>
               </ul>
             </div>
@@ -121,10 +122,7 @@
                   <div class="input-group input-group-outline mb-3">
                     <input type="password" class="form-control" placeholder="Contraseña" required="">
                   </div>
-                  <div class="form-check form-switch d-flex align-items-center mb-3">
-                    <input class="form-check-input" type="checkbox" id="rememberMe" checked >
-                    <label class="form-check-label mb-0 ms-3" for="rememberMe">Guardar contraseña</label>
-                  </div>
+
                   <div class="text-center">
                     <button type="submit" class="btn bg-gradient-primary w-100 my-4 mb-2">Iniciar sesión</button>
                     <a onclick="Olvido_Password();">olvide mi contraseña </a>
@@ -150,10 +148,11 @@
     </footer>
     </div>
   </main>
- 
   <!--   Core JS Files   -->
-  <script src="../assets/js/core/popper.min.js"></script>
-  <script src="../assets/js/core/bootstrap.min.js"></script>
+  <script src=""></script>
+  ../assets/js/core/popper.min.js
+  <script src="./Proyecto SSI  V 1.0/JS/Olvido contraseña.JS"></script>
+  ../assets/js/core/bootstrap.min.js
   <script src="../assets/js/plugins/perfect-scrollbar.min.js"></script>
   <script src="../assets/js/plugins/smooth-scrollbar.min.js"></script>
   
@@ -162,5 +161,6 @@
   <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
   <script src="../assets/js/material-dashboard.min.js?v=3.1.0"></script>
 </body>
+
 
 </html>
